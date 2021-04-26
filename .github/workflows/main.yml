@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubunt-latest
-    stops:
+    runs-on: ubuntu-latest
+    steps:
      # run 뒤에는 실제 작동하는 코드를 넣어야 합니다.
      - name: hellow world 출력!!
        run: echo hello, world!
